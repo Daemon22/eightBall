@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Magic Eight Ball</title>
 </head>
 <script src="./script.js"></script>
@@ -12,8 +12,11 @@
 <body>
     <div class="center">
         <div class="hero">
-            <h1>Magic Eight Ball</h1>
-            <p>Ask me something:</p>
+            <h1><span>Magic</span> Eight Ball</h1>
+            <div class="question">
+                <p>Ask me something:</p>
+                <input type="text" id="question">
+            </div>
             <button class="btn btn-primary" onClick="shake()">Shake</button>
         </div>
         <div class="content">
